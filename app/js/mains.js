@@ -10,19 +10,19 @@ var wrap = document.querySelector('.wrap');
 function land() {
 
 
-    left.addEventListener('mouseenter', () => {
+    left.addEventListener('mouseenter', function() {
         wrap.classList.add('hover-left');
     });
 
-    left.addEventListener('mouseleave', () => {
+    left.addEventListener('mouseleave', function() {
         wrap.classList.remove('hover-left');
     });
 
-    right.addEventListener('mouseenter', () => {
+    right.addEventListener('mouseenter', function() {
         wrap.classList.add('hover-right');
     });
 
-    right.addEventListener('mouseleave', () => {
+    right.addEventListener('mouseleave', function() {
         wrap.classList.remove('hover-right');
     });
 }
